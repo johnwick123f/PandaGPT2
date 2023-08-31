@@ -11,9 +11,9 @@ import json
 # init the model
 args = {
     'model': 'openllama_peft',
-    'imagebind_ckpt_path': '../pretrained_ckpt/imagebind_ckpt',
-    'vicuna_ckpt_path': '../pretrained_ckpt/vicuna_ckpt/13b_v0',
-    'delta_ckpt_path': '../pretrained_ckpt/pandagpt_ckpt/13b/pytorch_model.pt',
+    'imagebind_ckpt_path': '/kaggle/working/PandaGPT/pretrained_ckpt/imagebind_ckpt/imagebind_huge.pth',
+    'vicuna_ckpt_path': '/kaggle/working/PandaGPT/pretrained_ckpt/vicuna_ckpt/7b_v0',
+    'delta_ckpt_path': '/kaggle/working/PandaGPT/pretrained_ckpt/pandagpt_ckpt/7b',
     'stage': 2,
     'max_tgt_len': 128,
     'lora_r': 32,
